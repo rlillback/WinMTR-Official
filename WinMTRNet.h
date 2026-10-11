@@ -61,7 +61,7 @@ public:
 	int		GetBest(int at);
 	int		GetWorst(int at);
 	int		GetAvg(int at);
-	int		GetPercent(int at);
+	float	GetPercent(int at);
 	int		GetLast(int at);
 	int		GetReturned(int at);
 	int		GetXmit(int at);

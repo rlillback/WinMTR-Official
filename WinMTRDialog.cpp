@@ -906,7 +906,7 @@ int WinMTRDialog::DisplayRedraw()
 		
 		m_listMTR.SetItem(i, 1, LVIF_TEXT, nr_crt, 0, 0, 0, 0); 
 
-		sprintf(buf, "%d", wmtrnet->GetPercent(i));
+		sprintf(buf, "%.2f%%", wmtrnet->GetPercent(i));
 		m_listMTR.SetItem(i, 2, LVIF_TEXT, buf, 0, 0, 0, 0);
 
 		sprintf(buf, "%d", wmtrnet->GetXmit(i));
